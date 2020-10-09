@@ -11,6 +11,7 @@ void setup()
 
 void draw()
 {
+  int numofrows = 0;
   int numofcolumns = 0;
   int x = 10;
   int y = 10;
@@ -27,7 +28,7 @@ void draw()
           y = y + 60;
       
         }
-      int numofrows = 0;
+      
 
       x = x + 60;
       y = 10;
