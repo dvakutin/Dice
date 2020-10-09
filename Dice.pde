@@ -4,7 +4,6 @@ void setup()
   size(310,400);
   background(24, 249, 17);
   zigBlack = createFont("Arial", 32);
-  draw();
   
   
 }
