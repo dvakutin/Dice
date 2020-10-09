@@ -3,7 +3,6 @@ void setup()
 	noLoop();
   size(310,400);
   background(24, 249, 17);
-  billy = new Die(10,5);
   zigBlack = createFont("Arial", 32);
   
   
