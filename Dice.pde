@@ -3,9 +3,7 @@ void setup()
 	noLoop();
   size(310,400);
   background(24, 279, 17);
-  zigBlack = createFont("Arial", 32);
-  
-  
+  zigBlack = createFont("Arial", 32); 
 }
 void draw()
 {
