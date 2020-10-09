@@ -35,7 +35,7 @@ for (numofrows = 0; numofrows <= 6; numofrows ++)
     rect(10, 360, 290, 30);
     textFont(zigBlack);
     fill(24, 119, 243);
-    text("Die sum: " + totalsum, 65, 390);
+    text("Dice sum: " + totalsum, 65, 390);
     
     
         
