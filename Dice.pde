@@ -1,5 +1,6 @@
 Die billy;
 PFont zigBlack;
+
 void setup()
 {
   noLoop();
@@ -7,26 +8,27 @@ void setup()
   background(24, 279, 17);
   zigBlack = createFont("Arial", 32); 
 }
+
 void draw()
 {
-	//your code here
-int numofrows = 0;
-int numofcolumns = 0;
-int x = 10;
-int y = 10;
-int totalsum = 0;
-for (numofrows = 0; numofrows <= 6; numofrows ++)
+  int numofcolumns = 0;
+  int x = 10;
+  int y = 10;
+  int totalsum = 0;
+  for (numofrows = 0; numofrows <= 6; numofrows ++)
     {
       for (numofcolumns = 0; numofcolumns <= 5; numofcolumns ++)
-      {
-        billy = new Die(x, y);
-        billy.roll();
-        billy.show();
-        totalsum = totalsum + billy.dieroll;
-        
-        y = y + 60;
-    
-      }
+        {
+          billy = new Die(x, y);
+          billy.roll();
+          billy.show();
+          totalsum = totalsum + billy.dieroll;
+          
+          y = y + 60;
+      
+        }
+      int numofrows = 0;
+
       x = x + 60;
       y = 10;
     }
@@ -34,13 +36,9 @@ for (numofrows = 0; numofrows <= 6; numofrows ++)
     rect(10, 360, 290, 30);
     textFont(zigBlack);
     fill(24, 119, 243);
-    text("Dice sum: " + totalsum, 65, 390);
-    
-    
-        
-      
-
+    text("Dice sum: " + totalsum, 65, 390);   
 }
+
 void mousePressed()
 {
 	redraw();
