@@ -1,6 +1,6 @@
 void setup()
 {
-	noLoop();
+  noLoop();
   size(310,400);
   background(24, 279, 17);
   zigBlack = createFont("Arial", 32); 
