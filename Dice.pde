@@ -1,3 +1,5 @@
+Die billy;
+PFont zigBlack;
 void setup()
 {
   noLoop();
